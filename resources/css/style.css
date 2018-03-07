@@ -23,7 +23,7 @@ h3 {
   font-weight: bold;
 }
 
-.broadway {
+#backimage {
   background-image: image("resources/images/the-flatiron-building.png");
   background-color: red;
 }

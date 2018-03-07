@@ -10,7 +10,6 @@ p {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
 h2 {
@@ -19,11 +18,16 @@ h2 {
 }
 
 h3 {
-  font-size: 23;
+  font-size: 23px;
   font-weight: bold;
 }
 
-#backimage {
-  background-image: image("resources/images/the-flatiron-building.png");
-  background-color: red;
+.building {
+  background-image: url(../../resources/images/the-flatiron-building.png);
+  color: white;
+}
+
+.menu {
+  color: white;
+  font-size: 18px;
 }
